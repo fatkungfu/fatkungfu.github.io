@@ -1,35 +1,53 @@
 body {
   font-family: sans-serif;
 }
-main h1::first-letter {
-  font-size: 60px;
+a {
+  color: orange;
+  font-style: bold;
 }
+a:link, a:visited {
+    color: green;
+}
+a:hover, a:hover {
+    color: green;
+}
+
+/* Header */
 header img {
   float: left;
 }
 header h2 {
-  font-size: 39px;
+  font-size: 230%;
+  font-style: italic;
   color: orange;
-  text-indent: 20px;
-  text-shadow: 2px 2px black;
+  text-indent: 25px;
+  text-shadow: 2px 2px 2px black;
   font-style: italic;
 }
 header h3 {
-  text-indent: 20px;
-  font-size: 21px;
+  text-indent: 25px;
+  font-size: 125%;
 }
-main a {
-  color: orange;
-  font-style: bold;
+
+/* Main */
+main h1 {
+  font-size: 140%;
 }
-main a:hover {
-    color: green;
+main h1::first-letter {
+  font-size: 240%;
 }
-li {
-  font-weight: bold;
-  padding: 3px;
+main h2 {
+  font-size: 125%;
 }
-footer {
-  font-size: 15px;
+main h3 {
+  font-size: 240%;
+}
+ul {
+  line-height: 1.5;
+}
+
+/* footer */
+footer p {
+  font-size: 90%;
   text-align: center;
 }
