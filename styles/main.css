@@ -8,7 +8,7 @@ a {
 a:link, a:visited {
     color: green;
 }
-a:hover, a:hover {
+a:hover, a:focus {
     color: green;
 }
 
