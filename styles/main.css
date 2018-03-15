@@ -6,9 +6,9 @@ a {
   font-style: bold;
 }
 a:link, a:visited {
-    color: green;
+    color: orange;
 }
-a:hover, a:hover {
+a:hover, a:focus {
     color: green;
 }
 
