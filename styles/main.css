@@ -2,8 +2,8 @@ body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 a {
-  color: orange;
   font-style: bold;
+  color: orange;
 }
 a:link, a:visited {
     color: orange;
@@ -22,7 +22,6 @@ header h2 {
   color: orange;
   text-indent: 25px;
   text-shadow: 2px 2px 2px black;
-  font-style: italic;
 }
 header h3 {
   text-indent: 25px;
@@ -33,14 +32,14 @@ header h3 {
 main h1 {
   font-size: 140%;
 }
-main h1::first-letter {
+main h1:first-letter {
   font-size: 240%;
 }
 main h2 {
   font-size: 125%;
 }
 main h3 {
-  font-size: 240%;
+  font-size: 110%;
 }
 ul {
   line-height: 1.5;
