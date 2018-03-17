@@ -1,14 +1,15 @@
 html {
   background-image: url("../images/bats.gif");
-  background-repeat: repeat;
 }
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  width: 798px;
+  max-width: 800px;
+  font-size: 100%;
   background-color: white;
-  border: 2px solid black;
+  margin: auto;
+  border: 1px solid black;
   box-shadow: 3px 3px 5px 6px black;
-  margin: 0.40em auto;
+
 }
 a {
   font-style: bold;
@@ -23,33 +24,43 @@ a:hover, a:focus {
 
 /* Header */
 header {
-  border-bottom: 2px solid black;
   background: #FFFFFF;
   background: -moz-linear-gradient(45deg, #FFFFFF 0%, #FFAF29 75%, #000000);
   background: -webkit-linear-gradient(45deg, #FFFFFF 0%, #FFAF29 75%, #000000);
   background: linear-gradient(45deg, #FFFFFF 0%, #FFAF29 75%, #000000);
-  padding-top: 0.5em;
+  margin: auto;
+  padding: 0.5em;
+  border-bottom: 1px solid black;
+
 }
 header img {
   float: left;
-  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 0.5em;
 }
 header h2 {
   font-size: 230%;
-  text-indent: 25px;
-  margin-top: 0.2em;
+  margin: auto;
 }
 header h3 {
-  text-indent: 6em;
   font-size: 125%;
-  margin-top: -1.6em;
-  margin-left: auto;
-  float: left;
+  margin: 0.4em auto;
 }
+/*aside */
+aside {
+   width: 160px; /* Set the width of the sidebar */
+   position: fixed; /* Fixed Sidebar (stay in place on scroll) */ /* Black */
+   padding-top: 1em;
+
+}
+
 
 /* Main */
 main {
-  padding: 1em;
+  margin-left: 10em;
+  margin-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 main h1 {
   font-size: 140%;
@@ -68,15 +79,16 @@ ul {
 }
 
 /* footer */
-footer p {
-  font-size: 90%;
-  text-align: center;
-}
 footer {
   background: #000000;
   background: -moz-linear-gradient(45deg, #000000 0%, #FFAF29 25%, #FFFFFF);
   background: -webkit-linear-gradient(45deg, #000000 0%, #FFAF29 25%, #FFFFFF);
   background: linear-gradient(45deg, #000000 0%, #FFAF29 25%, #FFFFFF);
-  border-top: 2px solid black;
-padding-bottom: 0.01em;
+  margin-top: 2em;
+  border-top: 1px solid black;
+  padding-bottom: .1em;
+}
+footer p {
+  font-size: 90%;
+  text-align: center;
 }
