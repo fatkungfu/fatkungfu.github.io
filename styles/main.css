@@ -46,14 +46,14 @@ header h3 {
   font-size: 125%;
   margin: 0.4em auto;
 }
-/*aside */
-aside {
+
+/*nav */
+nav {
    width: 160px;
    position: fixed;
    overflow-x: hidden;
    padding-top: 1em;
 }
-
 
 /* Main */
 main {
