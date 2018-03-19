@@ -48,10 +48,10 @@ header h3 {
 }
 /*aside */
 aside {
-   width: 160px; /* Set the width of the sidebar */
-   position: fixed; /* Fixed Sidebar (stay in place on scroll) */ /* Black */
+   width: 160px;
+   position: fixed;
+   overflow-x: hidden;
    padding-top: 1em;
-
 }
 
 
